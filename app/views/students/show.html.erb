@@ -1,0 +1,4 @@
+<h1>Student List<h1>
+<%Student.all.each_with_index do |kid, index|%>
+<p><%=index+1%>. <%=kid.last_name%>, <%=kid.first_name%></p>
+<%end%>
